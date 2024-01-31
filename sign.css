@@ -1,0 +1,67 @@
+
+   
+
+form{
+    border: 1px solid black;
+    background-color:transparent;
+      width: 400px;
+      height: 500px;
+      position: absolute;
+      left: 30%;
+      top: 10%;
+      
+}
+h1{
+    text-align: center;
+}
+input[type='text'],[type='password']{
+    width: 80%;
+    margin-left: 15px;
+    border-radius: 40px;
+    padding: 20px;
+    
+    overflow: hidden;
+    
+}
+input[type='checkbox']{
+    padding: 30px;
+    margin:4px;
+}
+button{
+    width: 50%;
+    
+     float: left;
+      color: white;
+    padding: 10px;
+    border-radius: 40px;
+    
+}
+label{
+    margin-left: 10px;
+}
+.term{
+    padding: 20px;
+    
+    text-align: left;
+}
+#sign{
+    background-color: blue;
+    
+}
+#cancle{
+    background-color: red;
+}
+#sign:hover{
+    background-color: rgba(63, 63, 230, 0.837);
+
+}
+
+  #cancle:hover{
+    background-color: rgba(212, 60, 60, 0.842);
+  }
+  .acc{
+    text-align: center;
+    padding-top: 10px;
+
+  }
+
